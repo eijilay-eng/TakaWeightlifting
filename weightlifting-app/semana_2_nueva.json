@@ -1,0 +1,161 @@
+{
+  "id": "week_new_2",
+  "name": "Semana 2",
+  "focus": "Arrancada con pausa, Fuerza en Sentadilla y BTN Press (Ciclo 3 / Semana 2)",
+  "days": [
+    {
+      "id": "day1",
+      "name": "Día 1: Muscle Snatch e Intensidad de Sentadilla",
+      "exercises": [
+        {
+          "name": "Muscle Snatch + OHS",
+          "reference": "snatch",
+          "percentage": 60,
+          "displayPercentage": "60%",
+          "reps": "3 + 3",
+          "sets": 3,
+          "rest": "90s",
+          "detail": "3 Snatches de fuerza + 3 Sentadillas de arrancada (Overhead Squat) por serie.",
+          "foco": "Bloqueo firme arriba y control en la bajada de la sentadilla."
+        },
+        {
+          "name": "Snatch w/2\" pause above knee",
+          "reference": "snatch",
+          "rest": "2 min",
+          "detail": "Pausa de 2 segundos justo por encima de la rodilla antes de completar la arrancada.",
+          "foco": "Mantener la tensión en las piernas y los hombros al frente en la pausa.",
+          "series": [
+            { "sets": 2, "reps": "3", "percentage": 65, "displayPercentage": "65%" },
+            { "sets": 2, "reps": "2", "percentage": 70, "displayPercentage": "70%" },
+            { "sets": 2, "reps": "2", "percentage": 75, "displayPercentage": "75%" }
+          ]
+        },
+        {
+          "name": "Deficit Squat Clean + Push Jerk",
+          "reference": "clean",
+          "percentage": 70,
+          "displayPercentage": "70%",
+          "reps": "3",
+          "sets": 3,
+          "rest": "2 min",
+          "detail": "Cargada profunda desde déficit + Push Jerk por repetición. Calculado sobre tu 1RM de Clean & Jerk.",
+          "foco": "Entrada rápida abajo y empuje coordinado de piernas en el Jerk."
+        },
+        {
+          "name": "Back Squat (Ciclo 3 / Semana 2)",
+          "reference": "backSquat",
+          "rest": "3 min",
+          "detail": "Calcular los porcentajes sobre el 90% de tu 1RM + 20 lbs (9 kg). La última serie es AMRAP (repeticiones máximas posibles con buena técnica).",
+          "foco": "Profundidad constante y mantener el pecho arriba en la serie AMRAP pesada.",
+          "series": [
+            { "sets": 1, "reps": "3", "percentage": null, "displayPercentage": "70% (*)" },
+            { "sets": 1, "reps": "3", "percentage": null, "displayPercentage": "80% (*)" },
+            { "sets": 1, "reps": "3+", "percentage": null, "displayPercentage": "90%+ (*)" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "day2",
+      "name": "Día 2: Snatch Técnico y BTN Push Press",
+      "exercises": [
+        {
+          "name": "Snatch Balance",
+          "reference": "snatch",
+          "percentage": 65,
+          "displayPercentage": "65-70%",
+          "reps": "3",
+          "sets": 3,
+          "rest": "90s",
+          "detail": "Sentadilla de arrancada con empuje activo de hombros.",
+          "foco": "Estabilidad del tronco al recibir la barra abajo."
+        },
+        {
+          "name": "Snatch High Pull + Hang Snatch",
+          "reference": "snatch",
+          "rest": "2 min",
+          "detail": "Tirón alto de arrancada + arrancada colgante por encima de las rodillas.",
+          "foco": "Extensión completa en el tirón y entrada agresiva en el colgante.",
+          "series": [
+            { "sets": 2, "reps": "3 + 2", "percentage": 65, "displayPercentage": "65%" },
+            { "sets": 3, "reps": "3 + 2", "percentage": 70, "displayPercentage": "70%" },
+            { "sets": 2, "reps": "2 + 1", "percentage": 75, "displayPercentage": "75%" }
+          ]
+        },
+        {
+          "name": "Power Clean + Jerk",
+          "reference": "clean",
+          "percentage": 75,
+          "displayPercentage": "75%",
+          "reps": "2",
+          "sets": 3,
+          "rest": "2 min",
+          "detail": "1 Cargada de potencia + 1 Envión clásico por repetición.",
+          "foco": "Bloqueo rápido de codos en el Jerk."
+        },
+        {
+          "name": "BTN Push Press",
+          "reference": "clean",
+          "percentage": 70,
+          "displayPercentage": "70%",
+          "reps": "3",
+          "sets": 3,
+          "rest": "90s",
+          "detail": "Push Press detrás de la cabeza (Behind The Neck). Usa tu 1RM de Clean como referencia.",
+          "foco": "Empuje directo hacia arriba manteniendo la verticalidad."
+        }
+      ]
+    },
+    {
+      "id": "day3",
+      "name": "Día 3: Pausas en Snatch y Sentadilla Frontal",
+      "exercises": [
+        {
+          "name": "Deficit Muscle Squat Snatch",
+          "reference": "snatch",
+          "percentage": 65,
+          "displayPercentage": "65%",
+          "reps": "3",
+          "sets": 3,
+          "rest": "90s",
+          "detail": "Arrancada de fuerza desde déficit terminando en sentadilla profunda.",
+          "foco": "Extensión explosiva de cadera y control en el fondo."
+        },
+        {
+          "name": "Clean + Front Squat",
+          "reference": "clean",
+          "rest": "2 min",
+          "detail": "Cargada clásica + sentadilla frontal profunda por serie.",
+          "foco": "Mantener codos altos y postura erguida en cada sentadilla.",
+          "series": [
+            { "sets": 3, "reps": "2 + 4", "percentage": 70, "displayPercentage": "70%" },
+            { "sets": 2, "reps": "1 + 2", "percentage": 75, "displayPercentage": "75%" }
+          ]
+        },
+        {
+          "name": "Snatch High Pull",
+          "reference": "snatch",
+          "percentage": 80,
+          "displayPercentage": "80%",
+          "reps": "3",
+          "sets": 3,
+          "rest": "2 min",
+          "detail": "Tirón alto de arrancada manteniendo la verticalidad de la barra.",
+          "foco": "Contacto potente en la cadera y codos apuntando hacia arriba."
+        },
+        {
+          "name": "Front Squats (Ciclo 3 / Semana 2)",
+          "reference": "frontSquat",
+          "rest": "3 min",
+          "detail": "Calcular los porcentajes sobre el 90% de tu 1RM + 20 lbs (9 kg). La última serie es AMRAP (repeticiones máximas posibles con buena técnica).",
+          "foco": "Codos arriba y torso erguido en el squat pesado.",
+          "series": [
+            { "sets": 1, "reps": "3", "percentage": null, "displayPercentage": "70% (*)" },
+            { "sets": 1, "reps": "3", "percentage": null, "displayPercentage": "80% (*)" },
+            { "sets": 1, "reps": "3+", "percentage": null, "displayPercentage": "90%+ (*)" }
+          ]
+        }
+      ]
+    }
+  ]
+}

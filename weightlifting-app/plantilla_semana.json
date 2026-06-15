@@ -1,0 +1,164 @@
+{
+  "_ayuda_de_edicion": {
+    "1. NO_USAR_COMENTARIOS": "JSON no permite comentarios tradicionales (como //). Si agregas texto suelto la app dará error al importar. Modifica solo los campos existentes.",
+    "2. Campo_id": "Debe ser único para cada semana nueva (ej: 'week_5', 'week_6', 'semana_5', etc.).",
+    "3. Campo_reference": "Debe ser exactamente una de estas opciones en minúsculas: 'snatch' (Arrancada), 'clean' (Envión), 'backSquat' (Sentadilla Trasera), 'frontSquat' (Sentadilla Frontal).",
+    "4. Campo_percentage": "Número sin comillas (ej: 75). Si el ejercicio se regula por esfuerzo (RPE) o es ligero, pon la palabra null (sin comillas) y usa 'displayPercentage' para escribir el texto.",
+    "5. Campo_displayPercentage": "Texto que verá el atleta (ej: '75%', 'RPE 8', 'Intensidad 9/10', 'Calentamiento')."
+  },
+  "id": "week_cambiame_5",
+  "name": "Semana 5",
+  "focus": "Describe aquí el foco general de toda la semana (ej: Fuerza y estabilidad isométrica)",
+  "days": [
+    {
+      "id": "day1",
+      "name": "Día 1: Foco de Fuerza y Empuje",
+      "exercises": [
+        {
+          "name": "Hang Snatch + OHS",
+          "reference": "snatch",
+          "percentage": 70,
+          "displayPercentage": "70%",
+          "reps": "2 + 1",
+          "sets": 4,
+          "rest": "90s",
+          "detail": "Instrucciones de cómo realizar el ejercicio 1.",
+          "foco": "Foco técnico para este ejercicio."
+        },
+        {
+          "name": "Snatch Pull (Pesado)",
+          "reference": "snatch",
+          "percentage": 90,
+          "displayPercentage": "90%",
+          "reps": "3",
+          "sets": 4,
+          "rest": "2 min",
+          "detail": "Instrucciones del ejercicio 2.",
+          "foco": "Foco técnico del ejercicio 2."
+        },
+        {
+          "name": "Back Squat",
+          "reference": "backSquat",
+          "percentage": 75,
+          "displayPercentage": "75%",
+          "reps": "5",
+          "sets": 4,
+          "rest": "2-3 min",
+          "detail": "Instrucciones del ejercicio 3.",
+          "foco": "Foco técnico del ejercicio 3."
+        },
+        {
+          "name": "Push Press (Sin Porcentaje / RPE)",
+          "reference": "clean",
+          "percentage": null,
+          "displayPercentage": "RPE 8.5",
+          "reps": "4",
+          "sets": 4,
+          "rest": "90s",
+          "detail": "Instrucciones de ejercicio con esfuerzo percibido.",
+          "foco": "Foco técnico del ejercicio 4."
+        }
+      ]
+    },
+    {
+      "id": "day2",
+      "name": "Día 2: Foco de Cargada y Envión",
+      "exercises": [
+        {
+          "name": "Power Clean + Split Jerk",
+          "reference": "clean",
+          "percentage": 70,
+          "displayPercentage": "70%",
+          "reps": "2 + 1",
+          "sets": 4,
+          "rest": "2 min",
+          "detail": "Detalles del ejercicio...",
+          "foco": "Foco técnico..."
+        },
+        {
+          "name": "Clean Pull",
+          "reference": "clean",
+          "percentage": 90,
+          "displayPercentage": "90%",
+          "reps": "3",
+          "sets": 4,
+          "rest": "2 min",
+          "detail": "Detalles...",
+          "foco": "Foco..."
+        },
+        {
+          "name": "Front Squat",
+          "reference": "frontSquat",
+          "percentage": 75,
+          "displayPercentage": "75%",
+          "reps": "3",
+          "sets": 4,
+          "rest": "2-3 min",
+          "detail": "Detalles...",
+          "foco": "Foco..."
+        },
+        {
+          "name": "Overhead Squat",
+          "reference": "snatch",
+          "percentage": 65,
+          "displayPercentage": "65%",
+          "reps": "4",
+          "sets": 3,
+          "rest": "90s",
+          "detail": "Detalles...",
+          "foco": "Foco..."
+        }
+      ]
+    },
+    {
+      "id": "day3",
+      "name": "Día 3: Complejos y Velocidad",
+      "exercises": [
+        {
+          "name": "Power Snatch + Hang Snatch",
+          "reference": "snatch",
+          "percentage": 70,
+          "displayPercentage": "70%",
+          "reps": "1 + 1",
+          "sets": 4,
+          "rest": "90s",
+          "detail": "Detalles...",
+          "foco": "Foco..."
+        },
+        {
+          "name": "Hang Clean + Jerk",
+          "reference": "clean",
+          "percentage": 70,
+          "displayPercentage": "70%",
+          "reps": "1 + 1",
+          "sets": 4,
+          "rest": "2 min",
+          "detail": "Detalles...",
+          "foco": "Foco..."
+        },
+        {
+          "name": "Clean Deadlift con Pausa en Rodilla",
+          "reference": "clean",
+          "percentage: 95,
+          "displayPercentage": "95%",
+          "reps": "3",
+          "sets": 3,
+          "rest": "2 min",
+          "detail": "Detalles...",
+          "foco": "Foco..."
+        },
+        {
+          "name": "Sentadilla Trasera con Pausa en Fondo",
+          "reference": "backSquat",
+          "percentage": 70,
+          "displayPercentage": "70%",
+          "reps": "3",
+          "sets": 3,
+          "rest": "2 min",
+          "detail": "Detalles...",
+          "foco": "Foco..."
+        }
+      ]
+    }
+  ]
+}
