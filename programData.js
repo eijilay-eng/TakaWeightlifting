@@ -416,6 +416,265 @@ const defaultProgram = {
           ]
         }
       ]
+    },
+    {
+      "id": "week_3",
+      "name": "Semana 3",
+      "focus": "Fase de Realización: Sencillos y Dobles Pesados (85-90%), Pico de Intensidad y Máxima Calidad Técnica",
+      "days": [
+        {
+          "id": "day1",
+          "name": "Día 1: Complejo de Cargada Pesado y Fuerza de Sentadilla",
+          "exercises": [
+            {
+              "name": "Muscle Squat Snatch",
+              "reference": "snatch",
+              "percentage": 70,
+              "displayPercentage": "70%",
+              "reps": "2",
+              "sets": 3,
+              "rest": "90s",
+              "detail": "Arrancada de fuerza recibida en sentadilla profunda. Activación técnica y precisión en el despegue.",
+              "foco": "Extensión completa de cadera y velocidad para entrar al fondo de la sentadilla."
+            },
+            {
+              "name": "Clean + Front Squat",
+              "reference": "clean",
+              "rest": "2.5 min",
+              "detail": "1 Cargada completa + Sentadillas Frontales según la serie. Complejo corto de alta intensidad.",
+              "foco": "Codos altos en la recepción y velocidad de subida en la sentadilla.",
+              "series": [
+                { "sets": 2, "reps": "1+2", "percentage": 80, "displayPercentage": "80%" },
+                { "sets": 2, "reps": "1+1", "percentage": 85, "displayPercentage": "85%" }
+              ]
+            },
+            {
+              "name": "BTN Split Jerk",
+              "reference": "clean",
+              "rest": "2.5 min",
+              "detail": "Envión en tijera desde detrás del cuello (Behind The Neck). Sencillos y dobles pesados.",
+              "foco": "Dip vertical controlado y fijación instantánea en la tijera.",
+              "series": [
+                { "sets": 3, "reps": "2", "percentage": 80, "displayPercentage": "80%" },
+                { "sets": 2, "reps": "1", "percentage": 85, "displayPercentage": "85%" }
+              ]
+            },
+            {
+              "name": "Back Squat",
+              "reference": "backSquat",
+              "rest": "3 min",
+              "detail": "Sentadilla trasera en fase de realización. Carga pesada con volumen reducido para no fatigarte.",
+              "foco": "Tensión máxima en el torso y explosividad en el punto de estancamiento.",
+              "series": [
+                { "sets": 1, "reps": "3", "percentage": 85, "displayPercentage": "85%" },
+                { "sets": 2, "reps": "2", "percentage": 90, "displayPercentage": "90%" }
+              ]
+            },
+            {
+              "name": "— ACCESORIOS —",
+              "reference": null,
+              "percentage": null,
+              "displayPercentage": "—",
+              "reps": "—",
+              "sets": "—",
+              "rest": "60s",
+              "detail": "Sección de accesorios. Ejecutar con control al finalizar el trabajo principal.",
+              "foco": "Calidad de movimiento y recuperación."
+            },
+            {
+              "name": "Tricep Extensions",
+              "reference": null,
+              "percentage": null,
+              "displayPercentage": "Accesorio",
+              "reps": "8",
+              "sets": 3,
+              "rest": "60s",
+              "detail": "Extensiones de tríceps en polea o mancuerna. Codo fijo, solo se mueve el antebrazo.",
+              "foco": "Extensión completa del codo y contracción máxima del tríceps."
+            },
+            {
+              "name": "Suitcase March",
+              "reference": null,
+              "percentage": null,
+              "displayPercentage": "Accesorio",
+              "reps": "10m por lado",
+              "sets": 3,
+              "rest": "60s",
+              "detail": "Marcha portando pesas a un lado del cuerpo.",
+              "foco": "Mantener la cadera nivelada y el tronco erguido."
+            }
+          ]
+        },
+        {
+          "id": "day2",
+          "name": "Día 2: Pico de Cargada (Clean al 90%) y Sobrecarga de Jerk",
+          "exercises": [
+            {
+              "name": "Clean Grip Power Snatch",
+              "reference": "snatch",
+              "percentage": 55,
+              "displayPercentage": "55%",
+              "reps": "3",
+              "sets": 3,
+              "rest": "90s",
+              "detail": "Arrancada de potencia con agarre de cargada. Peso ligero para activación neuromuscular y velocidad.",
+              "foco": "Trayectoria pegada al cuerpo y velocidad de entrada."
+            },
+            {
+              "name": "Clean (Cargada Completa)",
+              "reference": "clean",
+              "rest": "3 min",
+              "detail": "Cargada completa de sentadilla. Progresión en sencillos y dobles hasta el 90%.",
+              "foco": "Segundo tirón agresivo y codos veloces para una recepción limpia.",
+              "series": [
+                { "sets": 2, "reps": "2", "percentage": 80, "displayPercentage": "80%" },
+                { "sets": 1, "reps": "2", "percentage": 85, "displayPercentage": "85%" },
+                { "sets": 2, "reps": "1", "percentage": 90, "displayPercentage": "90%" }
+              ]
+            },
+            {
+              "name": "Jerk Dip n' Drive",
+              "reference": "clean",
+              "percentage": 95,
+              "displayPercentage": "95%",
+              "reps": "3",
+              "sets": 3,
+              "rest": "2 min",
+              "detail": "Flexión y extensión explosiva de Jerk en el rack sin soltar la barra. Sobrecarga pesada para el SNC.",
+              "foco": "Dip vertical sin inclinar el torso y extensión potente de piernas."
+            },
+            {
+              "name": "Clean High Pull",
+              "reference": "clean",
+              "rest": "2.5 min",
+              "detail": "Tirón alto de cargada a muy alta intensidad. Mantiene la fuerza de extensión.",
+              "foco": "Hombros sobre la barra y tirón alto de codos.",
+              "series": [
+                { "sets": 2, "reps": "3", "percentage": 90, "displayPercentage": "90%" },
+                { "sets": 2, "reps": "2", "percentage": 95, "displayPercentage": "95%" }
+              ]
+            },
+            {
+              "name": "— ACCESORIOS —",
+              "reference": null,
+              "percentage": null,
+              "displayPercentage": "—",
+              "reps": "—",
+              "sets": "—",
+              "rest": "60s",
+              "detail": "Sección de accesorios. Ejecutar con control.",
+              "foco": "Refuerzo escapular y cadena posterior."
+            },
+            {
+              "name": "Pull Ups",
+              "reference": null,
+              "percentage": null,
+              "displayPercentage": "Accesorio",
+              "reps": "5",
+              "sets": 3,
+              "rest": "90s",
+              "detail": "Dominadas estrictas con agarre pronado.",
+              "foco": "Activar los dorsales y bajar con control."
+            },
+            {
+              "name": "YTW en Banco",
+              "reference": null,
+              "percentage": null,
+              "displayPercentage": "Accesorio",
+              "reps": "6",
+              "sets": 3,
+              "rest": "60s",
+              "detail": "Trabajo de estabilidad para escápulas en banco inclinado.",
+              "foco": "Retraer y deprimir las escápulas en cada posición."
+            }
+          ]
+        },
+        {
+          "id": "day3",
+          "name": "Día 3: Día Máximo — Snatch y Clean & Jerk al 90%",
+          "exercises": [
+            {
+              "name": "Snatch (Arrancada Completa)",
+              "reference": "snatch",
+              "rest": "3 min",
+              "detail": "Arrancada completa. Subida progresiva a sencillos pesados al 90%.",
+              "foco": "Confianza bajo la barra y bloqueo firme en la recepción.",
+              "series": [
+                { "sets": 1, "reps": "3", "percentage": 80, "displayPercentage": "80%" },
+                { "sets": 2, "reps": "2", "percentage": 85, "displayPercentage": "85%" },
+                { "sets": 2, "reps": "1", "percentage": 90, "displayPercentage": "90%" }
+              ]
+            },
+            {
+              "name": "Clean & Jerk (Levantamiento Olímpico Completo)",
+              "reference": "clean",
+              "rest": "3 min",
+              "detail": "1 Cargada + 1 Envión completo. Máximo esfuerzo técnico del mesociclo.",
+              "foco": "Transición limpia entre la cargada y el envión, manteniendo concentración total en el Jerk.",
+              "series": [
+                { "sets": 1, "reps": "2", "percentage": 80, "displayPercentage": "80%" },
+                { "sets": 2, "reps": "2", "percentage": 85, "displayPercentage": "85%" },
+                { "sets": 2, "reps": "1", "percentage": 90, "displayPercentage": "90%" }
+              ]
+            },
+            {
+              "name": "Snatch High Pull",
+              "reference": "snatch",
+              "percentage": 95,
+              "displayPercentage": "95%",
+              "reps": "3",
+              "sets": 3,
+              "rest": "2 min",
+              "detail": "Tirón alto de arrancada con sobrecarga.",
+              "foco": "Extensión vertical completa de cadera y tobillos."
+            },
+            {
+              "name": "Front Squat",
+              "reference": "frontSquat",
+              "rest": "3 min",
+              "detail": "Sentadilla frontal pesada de cierre. Mantener la postura limpia.",
+              "foco": "Codos muy altos y torso vertical.",
+              "series": [
+                { "sets": 1, "reps": "2", "percentage": 85, "displayPercentage": "85%" },
+                { "sets": 2, "reps": "1", "percentage": 90, "displayPercentage": "90%" }
+              ]
+            },
+            {
+              "name": "— ACCESORIOS —",
+              "reference": null,
+              "percentage": null,
+              "displayPercentage": "—",
+              "reps": "—",
+              "sets": "—",
+              "rest": "60s",
+              "detail": "Sección de accesorios. Ejecutar con control.",
+              "foco": "Recuperación e isquiotibiales."
+            },
+            {
+              "name": "Bulgarian Split Deadlifts",
+              "reference": null,
+              "percentage": null,
+              "displayPercentage": "Accesorio",
+              "reps": "10",
+              "sets": 3,
+              "rest": "60s",
+              "detail": "Peso muerto unilateral con pie elevado.",
+              "foco": "Estabilidad y fuerza unilateral."
+            },
+            {
+              "name": "Deficit Sumo Squats",
+              "reference": null,
+              "percentage": null,
+              "displayPercentage": "Accesorio",
+              "reps": "10",
+              "sets": 3,
+              "rest": "60s",
+              "detail": "Sentadilla sumo en déficit desde plataformas.",
+              "foco": "Aductores y glúteos."
+            }
+          ]
+        }
+      ]
     }
   ]
 };

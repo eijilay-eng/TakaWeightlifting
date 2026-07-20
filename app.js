@@ -103,14 +103,31 @@ document.addEventListener('DOMContentLoaded', () => {
     const savedProgram = localStorage.getItem('wl_program_v6');
     if (savedProgram) {
       appState.program = JSON.parse(savedProgram);
-      // Sanitizar nombres de semanas para remover fases ATR o detalles (ej: "Semana 1: Acumulación" -> "Semana 1")
       let hasChanges = false;
+      
+      // Sincronizar nuevas semanas agregadas a defaultProgram (ej: Semana 3)
+      if (window.defaultProgram && window.defaultProgram.weeks) {
+        window.defaultProgram.weeks.forEach(defWeek => {
+          const existingIndex = appState.program.weeks.findIndex(w => w.id === defWeek.id);
+          if (existingIndex === -1) {
+            appState.program.weeks.push(JSON.parse(JSON.stringify(defWeek)));
+            hasChanges = true;
+          } else {
+            // Actualizar semana existente con los últimos datos de defaultProgram si es necesario
+            appState.program.weeks[existingIndex] = JSON.parse(JSON.stringify(defWeek));
+            hasChanges = true;
+          }
+        });
+      }
+
+      // Sanitizar nombres de semanas para remover fases ATR o detalles (ej: "Semana 1: Acumulación" -> "Semana 1")
       appState.program.weeks.forEach(week => {
         if (week.name.includes(':')) {
           week.name = week.name.split(':')[0].trim();
           hasChanges = true;
         }
       });
+
       if (hasChanges) {
         localStorage.setItem('wl_program_v6', JSON.stringify(appState.program));
       }
