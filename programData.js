@@ -675,6 +675,265 @@ const defaultProgram = {
           ]
         }
       ]
+    },
+    {
+      "id": "week_4",
+      "name": "Semana 4",
+      "focus": "Fase de Descarga Activa (Deload): Cargas Ligeras (55-75%), Alta Calidad Técnica y Recuperación Central",
+      "days": [
+        {
+          "id": "day1",
+          "name": "Día 1: Movilidad Técnica, C&J Ligero y Sentadilla Trasera Suave",
+          "exercises": [
+            {
+              "name": "Muscle Snatch + Press",
+              "reference": "snatch",
+              "percentage": 55,
+              "displayPercentage": "55%",
+              "reps": "2+2",
+              "sets": 3,
+              "rest": "90s",
+              "detail": "2 Muscle Snatches + 2 Presses por serie. Activación de hombros y trayectoria fluida.",
+              "foco": "Brazos relajados hasta el salto y extensión completa arriba."
+            },
+            {
+              "name": "Clean + Jerk",
+              "reference": "clean",
+              "rest": "2 min",
+              "detail": "1 Cargada + 1 Envión por repetición. Carga ligera para mantener ritmo dinámico.",
+              "foco": "Recepción limpia en el Clean y empuje coordinado en el Jerk.",
+              "series": [
+                { "sets": 2, "reps": "3+3", "percentage": 60, "displayPercentage": "60%" },
+                { "sets": 2, "reps": "2+2", "percentage": 65, "displayPercentage": "65%" }
+              ]
+            },
+            {
+              "name": "Press in Split Position",
+              "reference": "clean",
+              "percentage": 35,
+              "displayPercentage": "30-40%",
+              "reps": "4+4",
+              "sets": 3,
+              "rest": "90s",
+              "detail": "Press estricto desde la posición de tijera (Split Jerk). 4 reps por lado. Peso ultra-ligero.",
+              "foco": "Estabilidad de hombros y equilibrio en la postura de tijera."
+            },
+            {
+              "name": "Back Squat",
+              "reference": "backSquat",
+              "percentage": 65,
+              "displayPercentage": "65%",
+              "reps": "4",
+              "sets": 3,
+              "rest": "2 min",
+              "detail": "Sentadilla trasera ligera de descarga para mantener la velocidad de subida.",
+              "foco": "Profundidad completa con torso vertical y empuje explosivo."
+            },
+            {
+              "name": "— ACCESORIOS —",
+              "reference": null,
+              "percentage": null,
+              "displayPercentage": "—",
+              "reps": "—",
+              "sets": "—",
+              "rest": "60s",
+              "detail": "Sección de accesorios. Ejecutar con control.",
+              "foco": "Movilidad y recuperación activa."
+            },
+            {
+              "name": "Tricep Extensions",
+              "reference": null,
+              "percentage": null,
+              "displayPercentage": "Accesorio",
+              "reps": "8",
+              "sets": 3,
+              "rest": "60s",
+              "detail": "Extensiones de tríceps en polea o mancuerna.",
+              "foco": "Extensión completa y control excéntrico."
+            },
+            {
+              "name": "Suitcase March",
+              "reference": null,
+              "percentage": null,
+              "displayPercentage": "Accesorio",
+              "reps": "10m por lado",
+              "sets": 3,
+              "rest": "60s",
+              "detail": "Marcha portando pesas a un lado del cuerpo.",
+              "foco": "Core rígido y cadera nivelada."
+            }
+          ]
+        },
+        {
+          "id": "day2",
+          "name": "Día 2: Velocidad de Potencia, Bloques y Peso Muerto Rumano",
+          "exercises": [
+            {
+              "name": "Power Snatch",
+              "reference": "snatch",
+              "rest": "90s",
+              "detail": "Arrancada de potencia ligera centrada en la velocidad de barra.",
+              "foco": "Entrada rápida sobre paralelo y fijación firme.",
+              "series": [
+                { "sets": 2, "reps": "3", "percentage": 60, "displayPercentage": "60%" },
+                { "sets": 3, "reps": "2", "percentage": 65, "displayPercentage": "65%" }
+              ]
+            },
+            {
+              "name": "Power Clean from Blocks",
+              "reference": "clean",
+              "rest": "2 min",
+              "detail": "Cargada de potencia desde bloques a nivel de rodilla.",
+              "foco": "Aceleración explosiva del segundo tirón sin fatiga del despegue.",
+              "series": [
+                { "sets": 2, "reps": "3", "percentage": 60, "displayPercentage": "60%" },
+                { "sets": 2, "reps": "2", "percentage": 65, "displayPercentage": "65%" },
+                { "sets": 1, "reps": "2", "percentage": 70, "displayPercentage": "70%" }
+              ]
+            },
+            {
+              "name": "Tall Jerk",
+              "reference": "clean",
+              "percentage": 35,
+              "displayPercentage": "30-40%",
+              "reps": "5",
+              "sets": 3,
+              "rest": "90s",
+              "detail": "Envión desde la posición erguida de puntillas con carga ultra-ligera.",
+              "foco": "Velocidad de pies y rapidez para caer en tijera."
+            },
+            {
+              "name": "Romanian Deadlift (Clean Grip)",
+              "reference": "clean",
+              "percentage": 55,
+              "displayPercentage": "50-60%",
+              "reps": "8",
+              "sets": 3,
+              "rest": "90s",
+              "detail": "Peso muerto rumano ligero con agarre de cargada.",
+              "foco": "Estiramiento activo de isquiotibiales y control de la espalda baja."
+            },
+            {
+              "name": "— ACCESORIOS —",
+              "reference": null,
+              "percentage": null,
+              "displayPercentage": "—",
+              "reps": "—",
+              "sets": "—",
+              "rest": "60s",
+              "detail": "Sección de accesorios. Ejecutar con control.",
+              "foco": "Salud articular de hombros y espalda."
+            },
+            {
+              "name": "Pull Ups",
+              "reference": null,
+              "percentage": null,
+              "displayPercentage": "Accesorio",
+              "reps": "5",
+              "sets": 4,
+              "rest": "90s",
+              "detail": "Dominadas estrictas con agarre pronado.",
+              "foco": "Rango completo y bajada suave."
+            },
+            {
+              "name": "YTW en Banco",
+              "reference": null,
+              "percentage": null,
+              "displayPercentage": "Accesorio",
+              "reps": "6",
+              "sets": 3,
+              "rest": "60s",
+              "detail": "Trabajo de estabilidad para escápulas.",
+              "foco": "Retracción limpia de escápulas."
+            }
+          ]
+        },
+        {
+          "id": "day3",
+          "name": "Día 3: Consistencia Técnica y Sentadilla Frontal Suave",
+          "exercises": [
+            {
+              "name": "Snatch (Arrancada Completa)",
+              "reference": "snatch",
+              "rest": "2 min",
+              "detail": "Arrancada completa técnica en cargas moderadas-ligeras.",
+              "foco": "Trayectoria pegada y recepción sólida abajo.",
+              "series": [
+                { "sets": 2, "reps": "3", "percentage": 60, "displayPercentage": "60%" },
+                { "sets": 1, "reps": "2", "percentage": 65, "displayPercentage": "65%" },
+                { "sets": 2, "reps": "2", "percentage": 70, "displayPercentage": "70%" }
+              ]
+            },
+            {
+              "name": "Clean and Jerk",
+              "reference": "clean",
+              "rest": "2 min",
+              "detail": "Cargada y envión completo.",
+              "foco": "Levantamientos fluidos y precisos sin esfuerzo excesivo.",
+              "series": [
+                { "sets": 1, "reps": "3", "percentage": 65, "displayPercentage": "65%" },
+                { "sets": 3, "reps": "2", "percentage": 70, "displayPercentage": "70%" },
+                { "sets": 2, "reps": "1", "percentage": 75, "displayPercentage": "75%" }
+              ]
+            },
+            {
+              "name": "Snatch High Pull",
+              "reference": "snatch",
+              "percentage": 80,
+              "displayPercentage": "80%",
+              "reps": "4",
+              "sets": 3,
+              "rest": "2 min",
+              "detail": "Tirón alto de arrancada técnico.",
+              "foco": "Extensión vertical completa de cadera y tobillos."
+            },
+            {
+              "name": "Front Squats",
+              "reference": "frontSquat",
+              "percentage": 65,
+              "displayPercentage": "65%",
+              "reps": "3",
+              "sets": 3,
+              "rest": "2 min",
+              "detail": "Sentadilla frontal ligera de descarga.",
+              "foco": "Codos muy altos y postura erguida impecable."
+            },
+            {
+              "name": "— ACCESORIOS —",
+              "reference": null,
+              "percentage": null,
+              "displayPercentage": "—",
+              "reps": "—",
+              "sets": "—",
+              "rest": "60s",
+              "detail": "Sección de accesorios. Ejecutar con control.",
+              "foco": "Estabilidad y trabajo unilateral."
+            },
+            {
+              "name": "Bulgarian Split Deadlifts",
+              "reference": null,
+              "percentage": null,
+              "displayPercentage": "Accesorio",
+              "reps": "10",
+              "sets": 3,
+              "rest": "60s",
+              "detail": "Peso muerto unilateral con pie elevado.",
+              "foco": "Estabilidad de rodilla y cadera."
+            },
+            {
+              "name": "Deficit Sumo Squats",
+              "reference": null,
+              "percentage": null,
+              "displayPercentage": "Accesorio",
+              "reps": "10",
+              "sets": 3,
+              "rest": "60s",
+              "detail": "Sentadilla sumo en déficit desde plataformas.",
+              "foco": "Movilidad activa de cadera."
+            }
+          ]
+        }
+      ]
     }
   ]
 };
